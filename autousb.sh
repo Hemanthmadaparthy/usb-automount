@@ -3,7 +3,7 @@ set -e
 
 # USB Auto-Mount + Cleanup Installer for Orange Pi / Raspberry Pi
 # Includes clean unmount and folder cleanup logic
-# Author: ChatGPT (2025-08-04)
+# Author: ChatGPT (2025-08-04) & Hemanth Sai Madaparthy
 
 echo "[INFO] Cleaning old installation..."
 sudo systemctl stop 'usb-mount@*' 'usb-umount@*' >/dev/null 2>&1 || true
